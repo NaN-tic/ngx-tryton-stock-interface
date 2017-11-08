@@ -4,8 +4,8 @@
 */
 
 export interface Location {
-    id: number;
-    name: string;
-    code: string;
-    'parent.name': string;
+  id: number;
+  name: string;
+  code: string;
+  'parent.name': string;
 }
