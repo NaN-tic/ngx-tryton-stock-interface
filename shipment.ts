@@ -14,6 +14,8 @@ export interface InternalShipment {
   planned_start_date?: any,
   number?: string,
   moves?: any[],
+  outgoing_moves?: any[],
+  incoming_moves?: any[],
   comment?: string
 }
 
@@ -38,6 +40,8 @@ export interface CustomerShipment {
   planned_start_date?: any,
   number?: string,
   moves?: any[],
+  outgoing_moves?: any[],
+  inventory_moves?: any[],
   comment?: string
 }
 
