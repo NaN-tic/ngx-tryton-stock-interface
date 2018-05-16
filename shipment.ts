@@ -13,7 +13,8 @@ export interface InternalShipment {
   planned_date?: any,
   planned_start_date?: any,
   number?: string,
-  moves?: any[]
+  moves?: any[],
+  comment?: string
 }
 
 export interface InternalShipmentLines {
@@ -36,7 +37,8 @@ export interface CustomerShipment {
   planned_date?: any,
   planned_start_date?: any,
   number?: string,
-  moves?: any[]
+  moves?: any[],
+  comment?: string
 }
 
 export interface CustomerShipmentLines {
