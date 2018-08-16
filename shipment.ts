@@ -43,6 +43,7 @@ export interface CustomerShipment {
   outgoing_moves?: any[],
   inventory_moves?: any[],
   folders?: any[],
+  packages?: any[],
   comment?: string
 }
 
