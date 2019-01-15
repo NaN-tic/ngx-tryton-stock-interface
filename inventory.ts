@@ -10,9 +10,9 @@ export interface Inventory {
   company?: string;
   date: string;
   location: Location;
+  lost_found: Location;
   state: string;
   lines?: InventoryLines[];
-  lost_found : number;
 }
 
 export interface InventoryLines {
